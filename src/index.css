@@ -1,4 +1,4 @@
-body {
+body, button {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,27 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* cinzas */
+  --c: rgb(240, 240, 240);
+  --c1: rgb(216, 216, 216);
+  --c2: rgb(148, 153, 151);
+  --c3: rgb(129, 128, 128);
+
+  /* verdes */
+  --v1: rgb(108, 167, 154);
+  --v2: rgb(89, 166, 140);
+  --v3: rgb(16, 219, 135);
+  --v4: rgb(7, 173, 118);
+  --v5: rgb(38, 104, 87);
+  --v6: rgb(20, 85, 69);
+  --v7: rgb(99, 146, 130);
 }

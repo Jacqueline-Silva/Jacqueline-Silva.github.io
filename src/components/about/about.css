@@ -1,0 +1,41 @@
+.about {
+  background-color: var(--c);
+  height: 920px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about__img {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  margin: 10px;
+  width: 600px;
+}
+
+.about__img img {
+  border-radius: 5%;
+  width: 100%;
+}
+
+.about__txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 50px;
+  width: 750px;
+}
+
+.about__txt h1 {
+  color: var(--v7);
+  font-size: 44px;
+  text-align: end;
+  margin-bottom: 20px;
+}
+
+.about__txt p {
+  font-size: 20px;
+  margin: 15px 0px 15px 0px;
+}
