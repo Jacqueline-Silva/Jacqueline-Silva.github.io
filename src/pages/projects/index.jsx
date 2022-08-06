@@ -55,7 +55,7 @@ function Projects() {
       </div>
       <div className='list--projects'>
         <div>
-        {
+          {
           stack && (
             projects.map(({ id, url, src, title }) => (
               <CardProjects
@@ -66,6 +66,10 @@ function Projects() {
               />
               ))
               )
+            }
+            {
+              projects.length === 0 && 
+              <p>Em breve!</p>
             }
         </div>
       </div>
