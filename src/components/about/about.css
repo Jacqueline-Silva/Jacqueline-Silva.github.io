@@ -36,6 +36,7 @@
 
 .about__txt {
   display: flex;
+  color: var(--c4);
   flex-direction: column;
   justify-content: center;
   margin: 10px;
