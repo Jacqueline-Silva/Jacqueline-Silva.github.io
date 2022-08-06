@@ -1,14 +1,32 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import CardProjects from '../../components/cardProject';
+import backend from '../../db/backend';
+import frontend from '../../db/frontend';
+import fundamentos from '../../db/fundamentos';
 import './projects.css';
 
 function Projects() {
   const [stack, setStack] = useState('frontend');
+  const [projects, setProjects] = useState(frontend);
   console.log(stack);
 
   const getClick = ({ target }) => {
     setStack(target.value)
   }
+
+  useEffect(() => {
+    const getProjects = () => {
+      if (stack === 'fundamentos') {
+        setProjects(fundamentos)
+        return
+      } else if (stack === 'backend') {
+        setProjects(backend)
+        return
+      }
+      setProjects(frontend)
+    }
+    getProjects();
+  }, [stack])
 
   return (
     <section className='projects' id='projects'>
@@ -33,9 +51,20 @@ function Projects() {
           BACKEND
         </button>
       </div>
-      {
-        stack && <CardProjects stackSelected={stack} />
-      }
+      <div className='list-projects'>
+        {
+          stack && (
+            projects.map(({ id, url, src, title }) => (
+                <CardProjects
+                  key={ id }
+                  url={ url }
+                  src={ src } 
+                  title={ title }
+                />
+                ))
+              )
+        }
+      </div>
     </section>
   );
 }
