@@ -21,19 +21,24 @@
 .projects-stacks button {
   border: none;
   background-color: var(--v7);
-  font-size: 24px;
+  font-size: 28px;
+  color: var(--c2);
   font-weight: 700;
 }
 
-.list-projects { 
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+#selected {
+  color: var(--c);
 }
 
-.list-projects img {
+.list--projects {
   width: 100%;
-  border-radius: 5%;
+  align-items: center;
   display: flex;
+  justify-content: space-evenly;
+}
+
+.list--projects div {
+  display: flex;
+  margin: 10px;
+  flex-wrap: wrap;
 }

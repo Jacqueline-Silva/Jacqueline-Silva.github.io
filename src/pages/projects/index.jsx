@@ -8,7 +8,6 @@ import './projects.css';
 function Projects() {
   const [stack, setStack] = useState('frontend');
   const [projects, setProjects] = useState(frontend);
-  console.log(stack);
 
   const getClick = ({ target }) => {
     setStack(target.value)
@@ -35,35 +34,40 @@ function Projects() {
         <button
           type='button'
           value='fundamentos'
+          id={ stack === 'fundamentos' ? 'selected' : ''}
           onClick={ (e) => getClick(e) }>
           FUNDAMENTOS
         </button>
         <button
           type='button'
           value='frontend'
+          id={ stack === 'frontend' ? 'selected' : ''}
           onClick={ (e) => getClick(e) }>
           FRONTEND
         </button>
         <button
           type='button'
           value='backend'
+          id={ stack === 'backend' ? 'selected' : ''}
           onClick={ (e) => getClick(e) }>
           BACKEND
         </button>
       </div>
-      <div className='list-projects'>
+      <div className='list--projects'>
+        <div>
         {
           stack && (
             projects.map(({ id, url, src, title }) => (
-                <CardProjects
-                  key={ id }
-                  url={ url }
-                  src={ src } 
-                  title={ title }
-                />
-                ))
+              <CardProjects
+              key={ id }
+              url={ url }
+              src={ src } 
+              title={ title }
+              />
+              ))
               )
-        }
+            }
+        </div>
       </div>
     </section>
   );
