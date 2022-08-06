@@ -26,10 +26,11 @@
 }
 
 .links a {
-    color: var(--c);
+  color: var(--c);
   text-decoration: none;
 }
 
 .links a:active {
-  color: rgb(255, 166, 0);
+  color: var(--v7);
+  background-color: var(--c);
 }

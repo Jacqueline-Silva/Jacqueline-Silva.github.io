@@ -3,7 +3,22 @@
   height: 920px;
   width: 100%;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about div {
+  display: flex;
   justify-content: space-evenly;
+}
+
+.about h1 {
+  text-align: end;
+  padding: 20px;
+  margin-right: 50px;
+  align-items: center;
+  color: var(--v7);
+  font-size: 50px;
 }
 
 .about__img {
@@ -21,6 +36,7 @@
 
 .about__txt {
   display: flex;
+  color: var(--c4);
   flex-direction: column;
   justify-content: center;
   margin: 10px;
@@ -28,14 +44,7 @@
   width: 750px;
 }
 
-.about__txt h1 {
-  color: var(--v7);
-  font-size: 44px;
-  text-align: end;
-  margin-bottom: 20px;
-}
-
 .about__txt p {
-  font-size: 20px;
+  font-size: 28px;
   margin: 15px 0px 15px 0px;
 }
