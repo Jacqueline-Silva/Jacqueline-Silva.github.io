@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.66508511.css",
+    "main.js": "/static/js/main.bcc12024.js",
+    "static/media/solar-system.gif": "/static/media/solar-system.c30e3036dc02f7bcb953.gif",
+    "static/media/trybetunes.gif": "/static/media/trybetunes.09f349668085e9533fbc.gif",
+    "static/media/pixels-art.gif": "/static/media/pixels-art.9ca476996d3b5b5b1431.gif",
+    "static/media/todo-list.gif": "/static/media/todo-list.21ab2337d1421701bb7d.gif",
+    "static/media/trybewallet.gif": "/static/media/trybewallet.a8543e011bf6d80e3d1e.gif",
+    "static/media/mistery-letter.gif": "/static/media/mistery-letter.dca095bedb9e31f78a14.gif",
+    "static/media/lessons-lerned.gif": "/static/media/lessons-lerned.4922af9728eeaf230ddb.gif",
+    "index.html": "/index.html",
+    "main.66508511.css.map": "/static/css/main.66508511.css.map",
+    "main.bcc12024.js.map": "/static/js/main.bcc12024.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66508511.css",
+    "static/js/main.bcc12024.js"
+  ]
+}
