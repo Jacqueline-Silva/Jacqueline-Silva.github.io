@@ -7,7 +7,7 @@ function About() {
       <h1> SOBRE MIM </h1>
       <div>
         <section className='about__img'>
-          <img src='https://c.tenor.com/cQKQVxNUQJkAAAAd/jennie-blackpink-jennie.gif' alt=''></img>
+          <img src='' alt='foto em breve'></img>
         </section>
         <article className='about__txt'>
           <p>
