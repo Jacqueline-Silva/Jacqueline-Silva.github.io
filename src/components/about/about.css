@@ -58,7 +58,7 @@
     text-align: end;
     margin-top: 20px;
     margin-right: 0;
-    font-size: 32px;
+    font-size: 36px;
     color: var(--a1);
   }
   
@@ -136,5 +136,6 @@
   
   .about__txt {
     width: 90%;
+    margin-bottom: 30px;
   }
 }

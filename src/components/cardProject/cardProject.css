@@ -12,3 +12,19 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media (max-width: 1024px) {
+  .list-projects section {
+    margin: 10px;
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .list-projects section {
+    margin: 10px;
+    width: 255px;
+    height: 150px;
+  }
+}
