@@ -1,6 +1,7 @@
 import solarSistem from './img/solar-system.gif'
 import trybetunes from './img/trybetunes.gif'
 import trybewallet from './img/trybewallet.gif'
+import starwarsPlanets from './img/starwars-planets-search.gif'
 
 export default [
   {
@@ -20,5 +21,11 @@ export default [
     "url": "https://github.com/Jacqueline-Silva/trybe-wallet",
     "src": trybewallet,
     "title": "trybe-wallet"
+  },
+  {
+    "id": 4,
+    "url": "https://github.com/Jacqueline-Silva/starwars-planets-search",
+    "src": starwarsPlanets,
+    "title": "starwars-planets-search"
   }
 ]
