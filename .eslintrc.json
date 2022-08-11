@@ -1,14 +1,24 @@
 {
     "env": {
         "browser": true,
-        "es2021": true,
-        "node": true
+        "es2021": true
     },
-    "extends": "trybe-fundamentals",
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
     "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
+    "plugins": [
+        "react"
+    ],
     "rules": {
+        "jsx-quotes": [2, "prefer-single"],
+        "quotes": ["error","double"]
     }
 }

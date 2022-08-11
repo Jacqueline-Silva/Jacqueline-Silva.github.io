@@ -6,7 +6,6 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
-    "eslint-config-trybe-frontend": "^1.2.3",
     "gh-pages": "^4.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
@@ -21,7 +20,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "npx stylelint '**/*.css'",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -45,9 +43,10 @@
   },
   "devDependencies": {
     "eslint": "^8.21.0",
-    "eslint-config-trybe-fundamentals": "^1.1.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.30.1",
-    "stylelint": "^14.9.1",
-    "stylelint-config-standard": "^26.0.0"
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
