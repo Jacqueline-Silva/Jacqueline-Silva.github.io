@@ -1,9 +1,24 @@
 .footer {
   align-items: center;
   background-color: var(--c);
+  bottom: 0;
+  color: var(--c3);
   display: flex;
   height: 30px;
   justify-content: center;
   width: 100%;
-  bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    font-size: 14px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    font-size: 12px;
+    height: 25px;
+  }
 }
