@@ -42,3 +42,90 @@
 .icons:hover {
   color: var(--l1);
 }
+
+@media (max-width: 1024px) {
+  .contacts h1 {
+    color: var(--a1);
+    font-size: 36px;
+  }
+
+  .contacts-links li p {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .icons {
+    color: var(--a1);
+    height: 40px;
+    width: 70px;
+  }
+
+  .icons:hover {
+    color: var(--r1);
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts h1 {
+    color: var(--r1);
+    font-size: 28px;
+    margin-top: 20px;
+  }
+
+  .contacts-links,
+  .contacts-links a {
+    margin: 10px;
+  }
+
+  .contacts-links li p {
+    font-size: 14px;
+  }
+
+  .icons {
+    color: var(--r1);
+    height: 35px;
+    width: 65px;
+  }
+
+  .icons:hover {
+    color: var(--r1);
+  }
+}
+
+@media (max-width: 500px) {
+  .contacts h1 {
+    color: var(--l1);
+    font-size: 24px;
+    margin-left: 15px;
+    padding: 10px;
+  }
+
+  .contacts-links {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+
+  .contacts-links,
+  .contacts-links a {
+    margin: 5px;
+  }
+
+  .contacts-links li p {
+    font-size: 12px;
+    margin-top: 5px;
+    padding: 0;
+  }
+
+  .icons {
+    color: var(--l1);
+    height: 25px;
+    width: 55px;
+  }
+
+  .icons:hover {
+    color: var(--a1);
+  }
+}
