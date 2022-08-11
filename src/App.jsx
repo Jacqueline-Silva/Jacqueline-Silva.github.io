@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 
-import About from './components/about/index.jsx';
-import Footer from './components/footer/index.jsx';
-import Header from './components/header/index.jsx';
-import Projects from './pages/projects/index.jsx';
+import About from './components/about';
+import Footer from './components/footer';
+import Header from './components/header';
+import Projects from './pages/projects';
 
 function App() {
   return (

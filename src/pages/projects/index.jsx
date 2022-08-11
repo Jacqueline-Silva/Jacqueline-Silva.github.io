@@ -10,22 +10,22 @@ function Projects() {
   const [projects, setProjects] = useState(frontend);
 
   const getClick = ({ target }) => {
-    setStack(target.value)
-  }
+    setStack(target.value);
+  };
 
   useEffect(() => {
     const getProjects = () => {
       if (stack === 'fundamentos') {
-        setProjects(fundamentos)
-        return
-      } else if (stack === 'backend') {
-        setProjects(backend)
-        return
+        setProjects(fundamentos);
+        return;
+      } if (stack === 'backend') {
+        setProjects(backend);
+        return;
       }
-      setProjects(frontend)
-    }
+      setProjects(frontend);
+    };
     getProjects();
-  }, [stack])
+  }, [stack]);
 
   return (
     <section className='projects' id='projects'>
@@ -34,22 +34,25 @@ function Projects() {
         <button
           type='button'
           value='fundamentos'
-          id={ stack === 'fundamentos' ? 'selected' : ''}
-          onClick={ (e) => getClick(e) }>
+          id={stack === 'fundamentos' ? 'selected' : ''}
+          onClick={(e) => getClick(e)}
+        >
           FUNDAMENTOS
         </button>
         <button
           type='button'
           value='frontend'
-          id={ stack === 'frontend' ? 'selected' : ''}
-          onClick={ (e) => getClick(e) }>
+          id={stack === 'frontend' ? 'selected' : ''}
+          onClick={(e) => getClick(e)}
+        >
           FRONTEND
         </button>
         <button
           type='button'
           value='backend'
-          id={ stack === 'backend' ? 'selected' : ''}
-          onClick={ (e) => getClick(e) }>
+          id={stack === 'backend' ? 'selected' : ''}
+          onClick={(e) => getClick(e)}
+        >
           BACKEND
         </button>
       </div>
@@ -57,19 +60,21 @@ function Projects() {
         <div>
           {
           stack && (
-            projects.map(({ id, url, src, title }) => (
+            projects.map(({
+              id, url, src, title,
+            }) => (
               <CardProjects
-              key={ id }
-              url={ url }
-              src={ src } 
-              title={ title }
+                key={id}
+                url={url}
+                src={src}
+                title={title}
               />
-              ))
-              )
+            ))
+          )
             }
-            {
-              projects.length === 0 && 
-              <p>Em breve!</p>
+          {
+              projects.length === 0
+              && <p>Em breve!</p>
             }
         </div>
       </div>
@@ -77,4 +82,4 @@ function Projects() {
   );
 }
 
-export default Projects
+export default Projects;

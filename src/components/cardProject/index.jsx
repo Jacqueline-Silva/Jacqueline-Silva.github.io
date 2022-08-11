@@ -1,13 +1,12 @@
 import React from 'react';
 import './cardProject.css';
-import propTypes from 'prop-types'
+import propTypes from 'prop-types';
 
 function CardProjects({ url, src, title }) {
-
   return (
     <div className='list-projects'>
       <a href={url}>
-        <section > 
+        <section>
           <img src={src} alt={`Gif do projeto ${title}`} />
         </section>
       </a>
