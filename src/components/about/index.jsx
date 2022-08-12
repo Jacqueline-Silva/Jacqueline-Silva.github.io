@@ -6,10 +6,10 @@ function About() {
     <section className='about' id='about'>
       <h1> SOBRE MIM </h1>
       <div>
-        <section className='about__img'>
+        <section className='about-img'>
           <img src='' alt='foto em breve' />
         </section>
-        <article className='about__txt'>
+        <article className='about-txt'>
           <p>
             Olá, eu me chamo Jacqueline, tenho 26 anos e nasci em São Paulo, SP.
           </p>

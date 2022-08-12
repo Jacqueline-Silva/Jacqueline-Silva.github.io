@@ -20,7 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "lint": "eslint .eslintrc.js ./src --ext .js,.jsx",
-    "lint:styles": "npx stylelint '**/*.css'",
+    "lint:styles": "npx stylelint './src/**/*.css'",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",

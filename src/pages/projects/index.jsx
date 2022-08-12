@@ -18,7 +18,8 @@ function Projects() {
       if (stack === 'fundamentos') {
         setProjects(fundamentos);
         return;
-      } if (stack === 'backend') {
+      }
+      if (stack === 'backend') {
         setProjects(backend);
         return;
       }
@@ -56,7 +57,7 @@ function Projects() {
           BACKEND
         </button>
       </div>
-      <div className='list--projects'>
+      <div className='projects-list'>
         <div>
           {
           stack && (

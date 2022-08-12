@@ -1,30 +1,30 @@
 .list-projects img {
-  width: 100%;
   border-radius: 5%;
   display: flex;
+  width: 100%;
 }
 
 .list-projects section {
-  margin: 10px;
-  width: 450px;
-  height: 250px;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 250px;
+  margin: 10px;
+  width: 450px;
 }
 
 @media (max-width: 1024px) {
   .list-projects section {
+    height: 200px;
     margin: 10px;
     width: 350px;
-    height: 200px;
   }
 }
 
 @media (max-width: 768px) {
   .list-projects section {
+    height: 150px;
     margin: 10px;
     width: 255px;
-    height: 150px;
   }
 }
