@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.66508511.css",
-    "main.js": "/static/js/main.bcc12024.js",
+    "main.css": "/static/css/main.a02f6ddd.css",
+    "main.js": "/static/js/main.cd744318.js",
+    "static/media/starwars-planets-search.gif": "/static/media/starwars-planets-search.617a7498c67772251833.gif",
     "static/media/solar-system.gif": "/static/media/solar-system.c30e3036dc02f7bcb953.gif",
     "static/media/trybetunes.gif": "/static/media/trybetunes.09f349668085e9533fbc.gif",
     "static/media/pixels-art.gif": "/static/media/pixels-art.9ca476996d3b5b5b1431.gif",
@@ -10,11 +11,11 @@
     "static/media/mistery-letter.gif": "/static/media/mistery-letter.dca095bedb9e31f78a14.gif",
     "static/media/lessons-lerned.gif": "/static/media/lessons-lerned.4922af9728eeaf230ddb.gif",
     "index.html": "/index.html",
-    "main.66508511.css.map": "/static/css/main.66508511.css.map",
-    "main.bcc12024.js.map": "/static/js/main.bcc12024.js.map"
+    "main.a02f6ddd.css.map": "/static/css/main.a02f6ddd.css.map",
+    "main.cd744318.js.map": "/static/js/main.cd744318.js.map"
   },
   "entrypoints": [
-    "static/css/main.66508511.css",
-    "static/js/main.bcc12024.js"
+    "static/css/main.a02f6ddd.css",
+    "static/js/main.cd744318.js"
   ]
 }
