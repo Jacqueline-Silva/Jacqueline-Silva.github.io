@@ -46,7 +46,7 @@ export default [
     description: 'O objetivo desta aplicação é desenvolver uma lista de filtros que podem ser aplicados ao pesquisar pelos planetas do universo de Star Wars, usando Context API e Hooks',
   },
   {
-    id: 4,
+    id: 5,
     url: 'https://github.com/Jacqueline-Silva/recipes-app',
     src: recipesAPP,
     title: 'Projeto Recipes APP',

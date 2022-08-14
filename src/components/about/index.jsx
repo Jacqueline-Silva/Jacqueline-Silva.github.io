@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.css';
+import fotoPerfil from '../../db/img/foto1.png';
 
 function About() {
   return (
@@ -7,7 +8,7 @@ function About() {
       <h1> SOBRE MIM </h1>
       <div>
         <section className='about-img'>
-          <img src='' alt='foto em breve' />
+          <img src={fotoPerfil} alt='foto em breve' />
         </section>
         <article className='about-txt'>
           <p>
