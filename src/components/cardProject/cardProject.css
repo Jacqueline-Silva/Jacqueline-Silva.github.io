@@ -1,30 +1,101 @@
 .list-projects img {
-  border-radius: 5%;
+  border-radius: 20px;
   display: flex;
   width: 100%;
 }
 
-.list-projects section {
+.spin {
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+  width: 100%;
+}
+
+.front {
   align-items: center;
-  display: flex;
-  flex-direction: column;
   height: 250px;
   margin: 10px;
   width: 450px;
 }
 
+.back {
+  align-items: center;
+  background-color: var(--c);
+  border-radius: 20px;
+  height: 250px;
+  margin: 10px;
+  perspective: 1000px;
+  position: absolute;
+  transform: rotateY(180deg);
+  width: 450px;
+}
+
+.back article {
+  margin: 5px;
+  width: 100%;
+}
+
+.back article p {
+  color: var(--c3);
+  padding: 5px;
+}
+
+.list-projects:hover .spin {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+}
+
+#title-project {
+  font-size: 18px;
+  text-align: center;
+}
+
 @media (max-width: 1024px) {
-  .list-projects section {
+  .front,
+  .back {
     height: 200px;
     margin: 10px;
     width: 350px;
   }
+
+  .back article p {
+    font-size: 14px;
+  }
+
+  #title-project {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 768px) {
-  .list-projects section {
+  .front,
+  .back {
     height: 150px;
     margin: 10px;
     width: 255px;
+  }
+
+  .back article p {
+    font-size: 10px;
+    padding: 3px;
+  }
+
+  #title-project {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .back article p {
+    font-size: 10px;
+  }
+
+  #title-project {
+    font-size: 12px;
   }
 }

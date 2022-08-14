@@ -62,20 +62,23 @@ function Projects() {
           {
           stack && (
             projects.map(({
-              id, url, src, title,
+              id, url, src, title, description, language, tools,
             }) => (
               <CardProjects
                 key={id}
                 url={url}
                 src={src}
                 title={title}
+                description={description}
+                language={language}
+                tools={tools}
               />
             ))
           )
             }
           {
               projects.length === 0
-              && <p>Em breve!</p>
+              && <p id='soon'>Em breve!</p>
             }
         </div>
       </div>

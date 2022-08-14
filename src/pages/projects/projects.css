@@ -1,6 +1,6 @@
 .projects {
   background-color: var(--v7);
-  height: 930px;
+  height: 100%;
   width: 100%;
 }
 
@@ -46,7 +46,7 @@
   margin: 10px;
 }
 
-.projects-list p {
+#soon {
   color: var(--c);
   font-size: 24px;
   margin-top: 120px;
@@ -67,7 +67,7 @@
     font-size: 24px;
   }
 
-  .projects-list p {
+  #soon {
     font-size: 28px;
     height: 550px;
   }
@@ -94,8 +94,8 @@
     font-size: 18px;
   }
 
-  .projects-list p {
-    font-size: 18px;
+  #soon {
+    font-size: 14px;
   }
 }
 
@@ -115,7 +115,7 @@
     margin: 10px;
   }
 
-  .projects-list p {
-    font-size: 14px;
+  #soon {
+    font-size: 12px;
   }
 }
