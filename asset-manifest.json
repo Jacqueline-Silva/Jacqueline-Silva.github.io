@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.a02f6ddd.css",
-    "main.js": "/static/js/main.cd744318.js",
-    "static/media/starwars-planets-search.gif": "/static/media/starwars-planets-search.617a7498c67772251833.gif",
+    "main.css": "/static/css/main.6491af6b.css",
+    "main.js": "/static/js/main.2fba6938.js",
+    "static/media/starwars-planets-search.gif": "/static/media/starwars-planets-search.502d068bf1286c2e0728.gif",
     "static/media/solar-system.gif": "/static/media/solar-system.c30e3036dc02f7bcb953.gif",
+    "static/media/recipes-app.gif": "/static/media/recipes-app.cd184913b30b5bfa62c7.gif",
+    "static/media/app-t&d.gif": "/static/media/app-t&d.a3ec756f5416aad3bbd9.gif",
+    "static/media/talker-manager.gif": "/static/media/talker-manager.513dd4f265c4e3c96967.gif",
     "static/media/trybetunes.gif": "/static/media/trybetunes.09f349668085e9533fbc.gif",
+    "static/media/mysql-all-for-one.gif": "/static/media/mysql-all-for-one.d18941a35c498ca7254d.gif",
     "static/media/pixels-art.gif": "/static/media/pixels-art.9ca476996d3b5b5b1431.gif",
+    "static/media/docker-todo-list.gif": "/static/media/docker-todo-list.7bb438ad494ffaa636be.gif",
+    "static/media/foto1.png": "/static/media/foto1.1d88728828da2a6a3d40.png",
     "static/media/todo-list.gif": "/static/media/todo-list.21ab2337d1421701bb7d.gif",
     "static/media/trybewallet.gif": "/static/media/trybewallet.a8543e011bf6d80e3d1e.gif",
     "static/media/mistery-letter.gif": "/static/media/mistery-letter.dca095bedb9e31f78a14.gif",
     "static/media/lessons-lerned.gif": "/static/media/lessons-lerned.4922af9728eeaf230ddb.gif",
     "index.html": "/index.html",
-    "main.a02f6ddd.css.map": "/static/css/main.a02f6ddd.css.map",
-    "main.cd744318.js.map": "/static/js/main.cd744318.js.map"
+    "main.6491af6b.css.map": "/static/css/main.6491af6b.css.map",
+    "main.2fba6938.js.map": "/static/js/main.2fba6938.js.map"
   },
   "entrypoints": [
-    "static/css/main.a02f6ddd.css",
-    "static/js/main.cd744318.js"
+    "static/css/main.6491af6b.css",
+    "static/js/main.2fba6938.js"
   ]
 }
